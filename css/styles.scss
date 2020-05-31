@@ -1,2 +1,34 @@
 body {
+  font-family: 'Montserrat', sans-serif;
+
+  h1 {
+    font-size: 70px;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-weight: 600;
+  }
+
+  h3 {
+    font-weight: 400;
+  }
+
+  .row {
+    background: pink;
+
+    &.hero-image {
+      background: rgb(12,179,248);
+    }
+
+    .price {
+      background: white;
+      border-radius: 5px;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      &.alt {
+        background: blue;
+      }
+    }
+  }
 }
