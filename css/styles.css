@@ -2,15 +2,120 @@ body {
   font-family: 'Montserrat', sans-serif; }
   body h1 {
     font-size: 70px;
-    font-weight: 700; }
-  body h2 {
-    font-weight: 600; }
+    font-weight: 700;
+    color: white; }
+  body .header1 {
+    font-size: 16.39px;
+    font-weight: bold;
+    color: white; }
+  body .head1 {
+    font-size: 12px;
+    font-weight: bold;
+    color: white; }
+  body .words1 {
+    font-size: 21px;
+    color: white; }
+  body .wd1 {
+    font-size: 10px;
+    font-weight: bold;
+    color: white; }
+  body .wd2 {
+    font-size: 9px;
+    color: white; }
+  body .words2 {
+    font-size: 13px;
+    color: #292534; }
   body h3 {
-    font-weight: 400; }
+    font-weight: 600;
+    font-size: 44px;
+    color: #242526; }
+  body .words3 {
+    font-weight: lighter;
+    font-size: 16px;
+    color: #747474; }
+  body .title1 {
+    font-weight: bold;
+    font-size: 13px;
+    color: #242526; }
+  body .tit1 {
+    font-size: 13px;
+    color: #747474; }
+  body h4 {
+    font-weight: 400;
+    font-size: 44px; }
+  body .words4 {
+    font-weight: lighter;
+    font-size: 16px;
+    color: #bcc6d0; }
+  body .title2 {
+    font-weight: bold;
+    font-size: 12px;
+    color: #242526; }
+  body .titl2 {
+    font-weight: bold;
+    font-size: 48px;
+    color: #242526; }
+  body .tit2 {
+    font-size: 12px;
+    color: #242526; }
+  body .ti2 {
+    font-size: 14px;
+    color: #242526; }
+  body .but2 {
+    font-weight: bold;
+    font-size: 10px;
+    color: #242526; }
+  body .title3 {
+    font-weight: bold;
+    font-size: 12px;
+    color: white; }
+  body .titl3 {
+    font-weight: bold;
+    font-size: 48px;
+    color: white; }
+  body .tit3 {
+    font-size: 12px;
+    color: white; }
+  body .ti3 {
+    font-size: 14px;
+    color: white; }
+  body .title4 {
+    font-weight: lighter;
+    font-size: 14px;
+    color: white; }
+  body .titl4 {
+    font-size: 11px;
+    color: white; }
+  body .tit4 {
+    font-size: 10px;
+    color: #242525; }
+  body .foot1 {
+    font-weight: bold;
+    font-size: 11px;
+    color: #242526; }
+  body .foo1 {
+    font-weight: lighter;
+    font-size: 11px;
+    color: #242526; }
+  body .fo1 {
+    font-size: 10px;
+    color: #242526; }
+  body.v2 {
+    color: black; }
   body .row {
     background: pink; }
     body .row.hero-image {
       background: #0cb3f8; }
+    body .row.part2 {
+      background: white; }
+    body .row.part3 {
+      background: gray; }
+    body .row.part4 {
+      background: black; }
+    body .row.part5 {
+      background-image: url(); }
+    body .row.part6 {
+      background: white; }
     body .row .price {
       background: white;
       border-radius: 5px;
