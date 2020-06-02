@@ -154,7 +154,9 @@ body {
       padding-top: 65px;
       padding-bottom: 97px; }
     body .row.part6 {
-      background: white; }
+      background: white;
+      padding-top: 70px;
+      padding-bottom: 90px; }
     body .row .price {
       background: white;
       border-radius: 5px;
