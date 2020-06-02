@@ -32,7 +32,14 @@ body {
 
   .wd2 {
     font-size: 9px;
-    color: white
+    color: white;
+  }
+
+  .butt {
+    border-radius: 15px;
+    height: 23px;
+    vertical-align: baseline;
+    text-align: center;
   }
 
   .words2 {
@@ -41,15 +48,17 @@ body {
   }
 
   h3 {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 44px;
     color: #242526;
+    padding-top: 70px;
   }
 
   .words3 {
     font-weight: lighter;
     font-size: 16px;
     color: #747474;
+    padding-bottom: 70px;
   }
 
   .title1 {
@@ -64,20 +73,24 @@ body {
   }
 
   h4 {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 44px;
+    color: white;
   }
 
   .words4 {
     font-weight: lighter;
     font-size: 16px;
     color: #bcc6d0;
+    padding-top: 20px;
+    padding-bottom: 70px;
   }
 
   .title2 {
     font-weight: bold;
     font-size: 12px;
     color: #242526;
+    padding-top: 20px;
   }
 
   .titl2 {
@@ -89,6 +102,7 @@ body {
   .tit2 {
     font-size: 12px;
     color: #242526;
+    padding-bottom: 30px;
   }
 
   .ti2 {
@@ -96,16 +110,30 @@ body {
     color: #242526;
   }
 
+  ul {
+    text-align: center;
+    list-style-position: inside;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
   .but2 {
+    border-radius: 30px;
     font-weight: bold;
     font-size: 10px;
     color: #242526;
+    background-color: white;
+    margin-bottom: 40px;
+    width: 150px;
+    height: 42px;
   }
 
   .title3 {
     font-weight: bold;
     font-size: 12px;
     color: white;
+    padding-top: 20px;
   }
 
   .titl3 {
@@ -117,6 +145,7 @@ body {
   .tit3 {
     font-size: 12px;
     color: white;
+    padding-bottom: 30px;
   }
 
   .ti3 {
@@ -128,16 +157,20 @@ body {
     font-weight: lighter;
     font-size: 14px;
     color: white;
+    padding-bottom: 52px;
   }
 
   .titl4 {
     font-size: 11px;
     color: white;
+    background-blend-mode: lighten;
   }
 
   .tit4 {
     font-size: 10px;
     color: #242525;
+    width: 145px;
+    text-align: center;
   }
 
   .foot1 {
@@ -168,24 +201,36 @@ body {
   .row {
     background: pink;
 
+    &.nav-pad {
+      padding-top: 20px;
+      padding-bottom: 30px;
+    }
+
     &.hero-image {
       background: rgb(12,179,248);
     }
 
     &.part2 {
       background: white;
+      padding-top: 20px;
+      padding-bottom: 20px;
     }
 
     &.part3 {
-      background: gray;
+      background: #f5f4f4;
+      padding-bottom: 70px;
     }
 
     &.part4 {
-      background: black;
+      background: #222222;
+      padding-top: 70px;
+      padding-bottom: 90px;
     }
 
     &.part5 {
-      background-image: url();
+      background-image: url('/images/mtn.png');
+      padding-top: 65px;
+      padding-bottom: 97px;
     }
 
     &.part6 {
@@ -198,7 +243,7 @@ body {
       padding-top: 20px;
       padding-bottom: 10px;
       &.alt {
-        background: blue;
+        background: #1b8bf9;
       }
     }
   }

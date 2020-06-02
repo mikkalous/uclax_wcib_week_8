@@ -22,17 +22,24 @@ body {
   body .wd2 {
     font-size: 9px;
     color: white; }
+  body .butt {
+    border-radius: 15px;
+    height: 23px;
+    vertical-align: baseline;
+    text-align: center; }
   body .words2 {
     font-size: 13px;
     color: #292534; }
   body h3 {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 44px;
-    color: #242526; }
+    color: #242526;
+    padding-top: 70px; }
   body .words3 {
     font-weight: lighter;
     font-size: 16px;
-    color: #747474; }
+    color: #747474;
+    padding-bottom: 70px; }
   body .title1 {
     font-weight: bold;
     font-size: 13px;
@@ -41,54 +48,76 @@ body {
     font-size: 13px;
     color: #747474; }
   body h4 {
-    font-weight: 400;
-    font-size: 44px; }
+    font-weight: 600;
+    font-size: 44px;
+    color: white; }
   body .words4 {
     font-weight: lighter;
     font-size: 16px;
-    color: #bcc6d0; }
+    color: #bcc6d0;
+    padding-top: 20px;
+    padding-bottom: 70px; }
   body .title2 {
     font-weight: bold;
     font-size: 12px;
-    color: #242526; }
+    color: #242526;
+    padding-top: 20px; }
   body .titl2 {
     font-weight: bold;
     font-size: 48px;
     color: #242526; }
   body .tit2 {
     font-size: 12px;
-    color: #242526; }
+    color: #242526;
+    padding-bottom: 30px; }
   body .ti2 {
     font-size: 14px;
     color: #242526; }
+  body ul {
+    text-align: center;
+    list-style-position: inside;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-top: 15px; }
   body .but2 {
+    border-radius: 30px;
     font-weight: bold;
     font-size: 10px;
-    color: #242526; }
+    color: #242526;
+    background-color: white;
+    margin-bottom: 40px;
+    width: 150px;
+    height: 42px; }
   body .title3 {
     font-weight: bold;
     font-size: 12px;
-    color: white; }
+    color: white;
+    padding-top: 20px; }
   body .titl3 {
     font-weight: bold;
     font-size: 48px;
     color: white; }
   body .tit3 {
     font-size: 12px;
-    color: white; }
+    color: white;
+    padding-bottom: 30px; }
   body .ti3 {
     font-size: 14px;
     color: white; }
   body .title4 {
     font-weight: lighter;
     font-size: 14px;
-    color: white; }
+    color: white;
+    padding-bottom: 52px; }
   body .titl4 {
     font-size: 11px;
-    color: white; }
+    color: white;
+    background-blend-mode: lighten; }
   body .tit4 {
     font-size: 10px;
-    color: #242525; }
+    color: #242525;
+    width: 145px;
+    text-align: center; }
   body .foot1 {
     font-weight: bold;
     font-size: 11px;
@@ -104,16 +133,26 @@ body {
     color: black; }
   body .row {
     background: pink; }
+    body .row.nav-pad {
+      padding-top: 20px;
+      padding-bottom: 30px; }
     body .row.hero-image {
       background: #0cb3f8; }
     body .row.part2 {
-      background: white; }
+      background: white;
+      padding-top: 20px;
+      padding-bottom: 20px; }
     body .row.part3 {
-      background: gray; }
+      background: #f5f4f4;
+      padding-bottom: 70px; }
     body .row.part4 {
-      background: black; }
+      background: #222222;
+      padding-top: 70px;
+      padding-bottom: 90px; }
     body .row.part5 {
-      background-image: url(); }
+      background-image: url("/images/mtn.png");
+      padding-top: 65px;
+      padding-bottom: 97px; }
     body .row.part6 {
       background: white; }
     body .row .price {
@@ -122,4 +161,4 @@ body {
       padding-top: 20px;
       padding-bottom: 10px; }
       body .row .price.alt {
-        background: blue; }
+        background: #1b8bf9; }
