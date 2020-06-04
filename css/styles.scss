@@ -190,8 +190,9 @@ body {
     color: #242526;
   }
 
-
-
+  .side-pad {
+    padding-right: 15px;
+  }
 
   &.v2 {
     color: black;
@@ -236,6 +237,12 @@ body {
     &.part6 {
       background: white;
       padding-top: 70px;
+      padding-bottom: 20px;
+    }
+
+    &.part7 {
+      background: white;
+      padding-top: 10px;
       padding-bottom: 80px;
     }
 

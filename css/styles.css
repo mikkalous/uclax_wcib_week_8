@@ -129,6 +129,8 @@ body {
   body .fo1 {
     font-size: 10px;
     color: #242526; }
+  body .side-pad {
+    padding-right: 15px; }
   body.v2 {
     color: black; }
   body .row {
@@ -156,6 +158,10 @@ body {
     body .row.part6 {
       background: white;
       padding-top: 70px;
+      padding-bottom: 20px; }
+    body .row.part7 {
+      background: white;
+      padding-top: 10px;
       padding-bottom: 80px; }
     body .row .price {
       background: white;
