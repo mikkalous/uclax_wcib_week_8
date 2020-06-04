@@ -183,3 +183,6 @@ body {
       padding-bottom: 10px; }
       body .row .price.alt {
         background: #1b8bf9; }
+
+.test {
+  font: red; }
