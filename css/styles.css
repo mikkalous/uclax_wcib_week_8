@@ -24,9 +24,31 @@ body {
     color: white; }
   body .butt {
     border-radius: 15px;
-    height: 23px;
-    vertical-align: baseline;
-    text-align: center; }
+    font-weight: bold;
+    font-size: 9px;
+    color: white;
+    width: 60px;
+    height: 22px;
+    box-shadow: 0px 4px 13px #a0caf2;
+    padding-left: 10px; }
+  body .but2 {
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 10px;
+    color: #242526;
+    background-color: white;
+    margin-bottom: 40px;
+    width: 150px;
+    height: 42px; }
+  body .but3 {
+    border-radius: 30px;
+    border-color: white;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    background-color: #0cb3f8;
+    width: 140px;
+    height: 40px; }
   body .words2 {
     font-size: 13px;
     color: #292534; }
@@ -79,15 +101,6 @@ body {
     padding-right: 40px;
     padding-bottom: 15px;
     padding-top: 15px; }
-  body .but2 {
-    border-radius: 30px;
-    font-weight: bold;
-    font-size: 10px;
-    color: #242526;
-    background-color: white;
-    margin-bottom: 40px;
-    width: 150px;
-    height: 42px; }
   body .title3 {
     font-weight: bold;
     font-size: 12px;
@@ -152,7 +165,7 @@ body {
       padding-top: 70px;
       padding-bottom: 90px; }
     body .row.part5 {
-      background-image: url("/images/mtn.png");
+      background-image: url("images/mtn.png");
       padding-top: 65px;
       padding-bottom: 78px; }
     body .row.part6 {
