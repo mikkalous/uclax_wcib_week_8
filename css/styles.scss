@@ -215,7 +215,6 @@ body {
 
 
   .row {
-    background: pink;
 
     &.nav-pad {
       padding-top: 20px;
@@ -244,7 +243,7 @@ body {
     }
 
     &.part5 {
-      background-image: url(images/mtn.png);
+      background-image: url('images/mtn.png');
       padding-top: 65px;
       padding-bottom: 78px;
     }

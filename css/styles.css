@@ -146,43 +146,41 @@ body {
     padding-right: 15px; }
   body.v2 {
     color: black; }
-  body .row {
-    background: pink; }
-    body .row.nav-pad {
-      padding-top: 20px;
-      padding-bottom: 30px; }
-    body .row.hero-image {
-      background: #0cb3f8; }
-    body .row.part2 {
-      background: white;
-      padding-top: 20px;
-      padding-bottom: 20px; }
-    body .row.part3 {
-      background: #f5f4f4;
-      padding-bottom: 70px; }
-    body .row.part4 {
-      background: #222222;
-      padding-top: 70px;
-      padding-bottom: 90px; }
-    body .row.part5 {
-      background-image: url(images/mtn.png);
-      padding-top: 65px;
-      padding-bottom: 78px; }
-    body .row.part6 {
-      background: white;
-      padding-top: 70px;
-      padding-bottom: 20px; }
-    body .row.part7 {
-      background: white;
-      padding-top: 10px;
-      padding-bottom: 80px; }
-    body .row .price {
-      background: white;
-      border-radius: 5px;
-      padding-top: 20px;
-      padding-bottom: 10px; }
-      body .row .price.alt {
-        background: #1b8bf9; }
+  body .row.nav-pad {
+    padding-top: 20px;
+    padding-bottom: 30px; }
+  body .row.hero-image {
+    background: #0cb3f8; }
+  body .row.part2 {
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  body .row.part3 {
+    background: #f5f4f4;
+    padding-bottom: 70px; }
+  body .row.part4 {
+    background: #222222;
+    padding-top: 70px;
+    padding-bottom: 90px; }
+  body .row.part5 {
+    background-image: url("images/mtn.png");
+    padding-top: 65px;
+    padding-bottom: 78px; }
+  body .row.part6 {
+    background: white;
+    padding-top: 70px;
+    padding-bottom: 20px; }
+  body .row.part7 {
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 80px; }
+  body .row .price {
+    background: white;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 10px; }
+    body .row .price.alt {
+      background: #1b8bf9; }
 
 .test {
   font: red; }
