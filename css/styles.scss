@@ -7,6 +7,10 @@ body {
     color: white;
   }
 
+  .iphone {
+    margin-bottom: -20px;
+  }
+
   .header1 {
     font-size: 16.39px;
     font-weight: bold;
@@ -242,7 +246,7 @@ body {
     }
 
     &.part5 {
-      background-image: url('/../images/mtn.png');
+      background-image: url('../images/iphone.png');
       padding-top: 65px;
       padding-bottom: 78px;
     }

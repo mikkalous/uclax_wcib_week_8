@@ -4,6 +4,8 @@ body {
     font-size: 70px;
     font-weight: 700;
     color: white; }
+  body .iphone {
+    margin-bottom: -20px; }
   body .header1 {
     font-size: 16.39px;
     font-weight: bold;
@@ -163,7 +165,7 @@ body {
     padding-top: 70px;
     padding-bottom: 90px; }
   body .row.part5 {
-    background-image: url("/../images/mtn.png");
+    background-image: url("../images/iphone.png");
     padding-top: 65px;
     padding-bottom: 78px; }
   body .row.part6 {
