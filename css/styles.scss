@@ -35,17 +35,6 @@ body {
     color: white;
   }
 
-  .butt {
-    border-radius: 15px;
-    font-weight: bold;
-    font-size: 9px;
-    color: white;
-    width: 60px;
-    height: 22px;
-    box-shadow: 0px 4px 13px #a0caf2;
-    padding-left: 10px;
-  }
-
   .but2 {
     border-radius: 30px;
     font-weight: bold;
@@ -55,17 +44,6 @@ body {
     margin-bottom: 40px;
     width: 150px;
     height: 42px;
-  }
-
-  .but3 {
-    border-radius: 30px;
-    border-color: white;
-    font-weight: bold;
-    font-size: 10px;
-    color: white;
-    background-color: #0cb3f8;
-    width: 140px;
-    height: 40px;
   }
 
   .words2 {
@@ -213,6 +191,27 @@ body {
     color: black;
   }
 
+  .but3 {
+    border-radius: 30px;
+    border-color: white;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    background-color: #0cb3f8;
+    width: 140px;
+    height: 40px;
+  }
+
+    .butt {
+      border-radius: 15px;
+      font-weight: bold;
+      font-size: 9px;
+      color: white;
+      width: 60px;
+      height: 22px;
+      box-shadow: 0px 4px 13px #a0caf2;
+      padding-left: 10px;
+    }
 
   .row {
 
@@ -243,7 +242,7 @@ body {
     }
 
     &.part5 {
-      background-image: url('images/mtn.png');
+      background-image: url('/images/mtn.png');
       padding-top: 65px;
       padding-bottom: 78px;
     }
