@@ -163,7 +163,7 @@ body {
     padding-top: 70px;
     padding-bottom: 90px; }
   body .row.part5 {
-    background-image: url("/images/mtn.png");
+    background-image: url("images/mtn.png");
     padding-top: 65px;
     padding-bottom: 78px; }
   body .row.part6 {
@@ -174,6 +174,24 @@ body {
     background: white;
     padding-top: 10px;
     padding-bottom: 80px; }
+  body .row .but3 {
+    border-radius: 30px;
+    border-color: white;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    background-color: #0cb3f8;
+    width: 140px;
+    height: 40px; }
+  body .row .butt {
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 9px;
+    color: white;
+    width: 60px;
+    height: 22px;
+    box-shadow: 0px 4px 13px #a0caf2;
+    padding-left: 10px; }
   body .row .price {
     background: white;
     border-radius: 5px;
